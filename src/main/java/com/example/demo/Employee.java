@@ -26,4 +26,7 @@ public class Employee {
 
     private String project;
 
+    private String mobileName;
+    private String laptop;
+
 }
