@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+  spring:
+    main:
+      web-application-type: reactive
+    application:
+      name: api-gateway-service
+    data:
+      mongodb:
+        uri: mongodb://localhost:27017/test
+        auto-index-creation: true
+
+        swagger-enabled: true
